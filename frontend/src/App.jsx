@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./index.css";
 import columbina from "./assets/columbina.png";
 
-const API_URL = "http://localhost:tre";
+const API_URL = "https://luxuani-textmap-searcher-backend.onrender.com";
 
 const RESULTS_PER_PAGE = 10;
 
