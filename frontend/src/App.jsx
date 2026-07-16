@@ -65,7 +65,7 @@ function App() {
       console.error("Search failed:", error);
 
       setResults([]);
-      setError("Search failed. Please try again.");
+      setError("Search failed. Inputting few characters can cause the search to timeout, try again?.");
 
     } finally {
       setLoading(false);
