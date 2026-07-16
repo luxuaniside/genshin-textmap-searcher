@@ -1,0 +1,56 @@
+﻿# Node / frontend
+node_modules/
+frontend/node_modules/
+.npm/
+.npmrc
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.vite/
+.vite-cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Vite / build output
+dist/
+frontend/dist/
+.build/
+coverage/
+
+# Environment
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+venv/
+.venv/
+ENV/
+env/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Misc editor/temp
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+# Local OS files
+desktop.ini
+
+# Project-specific
+.dist/
+animegamedata2
